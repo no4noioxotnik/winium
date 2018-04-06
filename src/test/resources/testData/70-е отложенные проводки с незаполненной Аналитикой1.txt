@@ -1,0 +1,1 @@
+select analytic_1, * from planned_transactions where account=70 and status_id=3 and analytic_1 is null and services_date >='20170101' order by 1 desc
